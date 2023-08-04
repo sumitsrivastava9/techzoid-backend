@@ -15,7 +15,7 @@ dotenv.config();
 app.use(express.json());
 app.use(
   cors({
-    origin: 'https://techzoid-blog.onrender.com/',
+    origin: 'https://techzoid-blog.onrender.com',
   })
 );
 app.use('/images', express.static(path.join(__dirname, '/images')));
